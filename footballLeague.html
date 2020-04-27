@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Football League</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <style>
+        body{
+            background-color: black;
+        }
+        a{
+            color:aquamarine;
+        }
+        input[type=text]:focus{
+            background-color: lightblue;
+
+        }
+        input[type=password]:focus{
+            background-color: lightblue;
+        }
+        h1, h2{
+            margin-top: 20px;
+            color: aqua;
+            
+        }
+        li{
+            color: purple;
+        }
+
+    </style>
+    <body>
+        <form>
+            <div>
+                <input name="leagueName" type="text" placeholder="League Name">
+                <input name="password" type="password" placeholder="Password">
+                <button>Enter</button>                
+            </div>
+            <a href="index.html">Go back</a>
+        </form>
+        <div>
+            <h1>Rules:</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <h2>Offensive</h2>
+                    <ul>
+                        <li>Passing Yards: 1 point per 25 yards</li>
+                        <li>Passing Touchdowns: 4 points</li>
+                        <li>Passing Interceptions: -2 points</li>
+                        <li>Rushing Yards: 1 point per 10 yards</li>                     
+                        <li>Rushing Touchdowns: 6 points</li>
+                        <li>Receptions: 1 points (only if using PPR scoring)</li>
+                        <li>Receiving Yards: 1 point per 10 yards</li>
+                        <li>Receiving Touchdowns: 6 points</li>
+                        <li>Receiving Touchdowns: 6 points</li>
+                        <li>2-Point Conversions: 2 points</li>
+                        <li>Fumbles Lost: -2 points</li>
+                        <li>Fumble Recovered for a Touchdown: 6 points</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <h2>Defense + Special Teams</h2>
+                    <ul>
+                        <li>Sacks: 1 point</li>
+                        <li>Interceptions: 2 points</li>
+                        <li>Fumbles Recovered: 2 points</li>
+                        <li>Safeties: 2 points</li>
+                        <li>Defensive Touchdowns: 6 points</li>
+                        <li>Kick and Punt Return Touchdowns: 6 points</li>
+                        <li>2-Point Conversion Returns: 2 points</li>
+                        <li>Points Allowed (0): 10 points</li>
+                        <li>Points Allowed (1-6): 7 points</li>
+                        <li>Points Allowed (7-13): 4 points</li>
+                        <li>Points Allowed (14-20): 1 points</li>
+                        <li>Points Allowed (21-27): 0 points</li>
+                        <li>Points Allowed (28-34): -1 points</li>
+                        <li>Points Allowed (35+): -4 points</li>
+                    </ul>
+                </div>
+                <div class ="col-lg-6 col-sm-6">
+                    <h2>Kicking</h2>
+                    <ul>
+                        <li>PAT Made: 1 point</li>
+                        <li>FG Made (0-49 yards): 3 points</li>
+                        <li>FG Made (50+ yards): 5 points</li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
