@@ -1,45 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>My Webpage</title>        
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <style>
-            body{
-                background-color: black;
-            }
-            h1, div, p{
-                color: aqua;
-                font-style: bold;
-            }
-
-            .row > div{
-                margin-top: 5%;
-                
-            }
-
-            th, td{
-                border: 1px white solid;
-                text-align: center;
-                padding: 10px;
-            
-
-            }
-            .TableHeader{
-                background-color: lightslategray;
-                border: none;
-            }
-            
-            #ColumnHeader{
-                color: rgb(88, 86, 209);
-            }
-            img{
-                opacity: 1;
-                height: 10%;
-                width: 10%;
-            }
-
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>    
@@ -49,10 +14,11 @@
             By:
             <a href="youtubeVideo.html">Sahil Parikh</a>
         </p>
-        <div>
-            <a href="bio.html">About Me</a>
-        </div> 
-        <a href="contact.html">Contact</a>
+        <ul>
+            <li><a href="bio.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>      
+            
+        </ul>   
         
         <div class="container">
             <div class="row">
@@ -149,7 +115,13 @@
             </div>
 
         </div>
-
-        <a href="hello.html"></a>
+        <div>
+            <nav aria-label="navigation">
+                <ul class="nav">
+                  <li class="page-item"><a class="page-link" href="#">Back to Top</a></li>
+                </ul>
+            </nav>
+        </div>
+        
     </body>
 </html>

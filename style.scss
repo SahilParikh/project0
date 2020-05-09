@@ -1,0 +1,52 @@
+$color: aqua;
+
+%message{
+    border: 1px white solid;
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background-color: black;
+}
+h1, div{
+    color: $color;
+    font-style: bold;
+}
+
+.row > div{
+    margin-top: 5%;
+
+}
+
+th, td{
+    @extend %message
+
+}
+.TableHeader{
+    background-color: lightslategray;
+    border: none;
+}
+
+#ColumnHeader{
+    color: rgb(88, 86, 209);
+}
+img{
+    opacity: 1;
+    height: 10%;
+    width: 10%;
+}
+
+nav{
+    padding-top: 10px;
+}
+
+p{
+    color: $color;
+    font-style: bold;
+
+    a{
+        color: blue;
+    }
+
+}

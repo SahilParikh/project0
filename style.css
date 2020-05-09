@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+h1, div, p{
+    color: aqua;
+    font-style: bold;
+}
+
+.row > div{
+    margin-top: 5%;
+
+}
+
+th, td{
+    border: 1px white solid;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.TableHeader{
+    background-color: lightslategray;
+    border: none;
+}
+
+#ColumnHeader{
+    color: rgb(88, 86, 209);
+}
+img{
+    opacity: 1;
+    height: 10%;
+    width: 10%;
+}
+
+nav{
+    padding-top: 30px;
+}
