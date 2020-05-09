@@ -1,37 +1,47 @@
-body{
-    background-color: black;
-}
-h1, div, p{
-    color: aqua;
-    font-style: bold;
+th, td {
+  border: 1px white solid;
+  text-align: center;
+  padding: 10px;
 }
 
-.row > div{
-    margin-top: 5%;
-
+body {
+  background-color: black;
 }
 
-th, td{
-    border: 1px white solid;
-    text-align: center;
-    padding: 10px;
-
-
-}
-.TableHeader{
-    background-color: lightslategray;
-    border: none;
+h1, div {
+  color: aqua;
+  font-style: bold;
 }
 
-#ColumnHeader{
-    color: rgb(88, 86, 209);
-}
-img{
-    opacity: 1;
-    height: 10%;
-    width: 10%;
+.row > div {
+  margin-top: 5%;
 }
 
-nav{
-    padding-top: 30px;
+.TableHeader {
+  background-color: lightslategray;
+  border: none;
 }
+
+#ColumnHeader {
+  color: #5856d1;
+}
+
+img {
+  opacity: 1;
+  height: 10%;
+  width: 10%;
+}
+
+nav {
+  padding-top: 10px;
+}
+
+p {
+  color: aqua;
+  font-style: bold;
+}
+p a {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
